@@ -1,0 +1,6 @@
+---
+BasedOnStyle: Google
+---
+Language: Proto
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: Consecutive
