@@ -160,7 +160,7 @@ const char descriptor_table_protodef_addressbook_2eproto[] ABSL_ATTRIBUTE_SECTIO
     "\n\004type\030\002 \001(\0162\032.tutorial.Person.PhoneType"
     ":\026PHONE_TYPE_UNSPECIFIED\"h\n\tPhoneType\022\032\n"
     "\026PHONE_TYPE_UNSPECIFIED\020\000\022\025\n\021PHONE_TYPE_"
-    "MOBILE\020\001\022\023\n\017PHONE_TYPE_HONE\020\002\022\023\n\017PHONE_T"
+    "MOBILE\020\001\022\023\n\017PHONE_TYPE_HOME\020\002\022\023\n\017PHONE_T"
     "YPE_WORK\020\003\"/\n\013AddressBook\022 \n\006people\030\001 \003("
     "\0132\020.tutorial.Person"
 };

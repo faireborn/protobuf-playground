@@ -81,7 +81,7 @@ namespace tutorial {
 enum Person_PhoneType : int {
   Person_PhoneType_PHONE_TYPE_UNSPECIFIED = 0,
   Person_PhoneType_PHONE_TYPE_MOBILE = 1,
-  Person_PhoneType_PHONE_TYPE_HONE = 2,
+  Person_PhoneType_PHONE_TYPE_HOME = 2,
   Person_PhoneType_PHONE_TYPE_WORK = 3,
 };
 
@@ -472,7 +472,7 @@ class Person final : public ::google::protobuf::Message
   using PhoneType = Person_PhoneType;
   static constexpr PhoneType PHONE_TYPE_UNSPECIFIED = Person_PhoneType_PHONE_TYPE_UNSPECIFIED;
   static constexpr PhoneType PHONE_TYPE_MOBILE = Person_PhoneType_PHONE_TYPE_MOBILE;
-  static constexpr PhoneType PHONE_TYPE_HONE = Person_PhoneType_PHONE_TYPE_HONE;
+  static constexpr PhoneType PHONE_TYPE_HOME = Person_PhoneType_PHONE_TYPE_HOME;
   static constexpr PhoneType PHONE_TYPE_WORK = Person_PhoneType_PHONE_TYPE_WORK;
   static inline bool PhoneType_IsValid(int value) {
     return Person_PhoneType_IsValid(value);
