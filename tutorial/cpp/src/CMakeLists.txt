@@ -23,7 +23,7 @@ if(MSVC AND protobuf_MSVC_STATIC_RUNTIME)
     endif(${flag_var} MATCHES "/MD")
   endforeach()
 endif()
-foreach(example add_person)
+foreach(example add_person list_people)
   set(${example}_SRCS ${example}.cc)
   set(${example}_PROTOS addressbook.proto)
 
